@@ -1,34 +1,51 @@
-# Testes automatizados com Cypress - Intermediário
+# Projeto de Testes Automatizados com Cypress
 
-👋 Seja bem-vinda(o)!
+## Descrição
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
+Este projeto é um exemplo de implementação de testes automatizados utilizando o framework Cypress. Ele foi desenvolvido como parte de um curso intermediário de testes automatizados.
 
-## O que você vai aprender
+## Objetivo do Projeto
 
-Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
+O objetivo deste projeto é demonstrar como criar e executar testes automatizados de interface gráfica de usuário e testes automatizados de API utilizando o Cypress.
 
-- Como configurar o ambiente local de desenvolvimento
-- Como instalar e configurar o Cypress
-- Como criar testes automatizados de interface gráfica de usuário
-- Como criar testes automatizados de API (com _feedback_ visual no navegador)
-- Como testar APIs que necessitam um _token_ de acesso
-- Como criar testes otimizados e direto-ao-ponto
-- Como salvar a sessão do usuário no navegador para posterior restauração
-- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
-- Como fazer a limpeza e criação da massa de dados antes do teste começar
-- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
-- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
-- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
-- Como gerar dados aleatórios para uso nos testes automatizados
-- Como habilitar funcionalidades experimentais do Cypress
-- Como executar comandos à nível de sistema operacional
-- E como testar a leitura de arquivos
+## Como Executar os Testes
 
-## Vamos começar?
+Para executar os testes, siga as etapas abaixo:
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+1. **Instalação do Cypress:**
+   - Certifique-se de ter o Node.js instalado em seu sistema.
+   - No terminal, navegue até o diretório do projeto.
+   - Execute o comando `npm install cypress` para instalar o Cypress.
 
-___
+2. **Configuração do Ambiente:**
+   - O ambiente de desenvolvimento deve estar configurado conforme as instruções do curso.
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+3. **Execução dos Testes:**
+   - Após a instalação do Cypress e a configuração do ambiente, execute o comando `npx cypress open` para abrir a interface do Cypress.
+   - Na interface do Cypress, selecione os testes que deseja executar e clique para iniciar a execução.
+
+4. **Análise dos Resultados:**
+   - Após a conclusão da execução dos testes, analise os resultados na interface do Cypress ou nos relatórios gerados.
+
+## Estrutura do Projeto
+
+- **cypress/integration:** Este diretório contém os arquivos de teste Cypress.
+- **cypress/plugins:** Este diretório contém arquivos de configuração do Cypress.
+- **cypress/support:** Este diretório contém arquivos de suporte, como comandos personalizados e configurações globais.
+
+## Recursos Adicionais
+
+- **Documentação do Cypress:** [https://docs.cypress.io/](https://docs.cypress.io/)
+- **Exemplos de Testes:** [https://github.com/cypress-io/cypress-example-recipes](https://github.com/cypress-io/cypress-example-recipes)
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests, relatar problemas ou sugerir melhorias.
+
+## Autor
+
+[Alex Bomtempo]
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
